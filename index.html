@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>فرم ثبت نام</title>
+  <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  <div class="form-container">
+    <div class="form-header">
+      <h1>فرم ثبت نام</h1>
+      <p>لطفاً فیلدهای زیر را با دقت پر کنید</p>
+    </div>
+    <form>
+      <div class="form-group">
+        <label for="name">اسم</label>
+        <input class="input-name" type="text" id="name" placeholder="مثلاً: علی" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="lastname">فامیل</label>
+        <input class="input-lastname" type="text" id="lastname" placeholder="مثلاً: محمدی" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="phone">شماره تلفن</label>
+        <input class="input-phone" type="tel" id="phone" placeholder="۰۹۱۲۳۴۵۶۷۸۹" autocomplete="off">
+      </div>
+
+      <div class="form-group">
+        <label for="email">ایمیل</label>
+        <input class="input-email" type="email" id="email" placeholder="example@gmail.com" autocomplete="off">
+      </div>
+      <button type="button" class="submit-btn">ثبت اطلاعات</button>
+    </form>
+  </div>
+  <script src="./index.js"></script>
+</body>
+</html>
